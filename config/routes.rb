@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :products
+
   get '/aboutus' => 'welcome#aboutus'
 
   get '/legal' => 'welcome#legal'
